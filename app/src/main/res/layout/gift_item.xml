@@ -4,9 +4,9 @@
     android:id="@+id/gift_main_layout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/colorPink"
     android:layout_gravity="center_horizontal"
     android:layout_margin="10dp"
+    android:background="@color/colorPink"
     android:orientation="vertical">
 
     <TextView
@@ -15,14 +15,24 @@
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_gift"
         android:drawablePadding="8dp"
+        android:gravity="center"
         android:paddingStart="16dp"
         android:paddingTop="8dp"
-        android:paddingBottom="8dp"
         android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
         android:textAlignment="center"
         android:textColor="@color/colorGiftText"
-        android:gravity="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         tools:text="Подарок" />
+
+    <TextView
+        android:id="@+id/gift_time_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="16sp"
+        tools:text="20:03:12" />
 
 </LinearLayout>
